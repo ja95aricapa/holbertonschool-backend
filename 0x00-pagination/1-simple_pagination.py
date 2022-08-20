@@ -46,7 +46,9 @@ class Server:
         assert type(page) is int and page > 0
         assert type(page_size) is int and page_size > 0
         page, page_size = index_range(page, page_size)
+        all_data = self.dataset()
+        filter_data = all_data[page:page_size]
         try:
-            return self.dataset()[page:page_size]
+            return filter_data
         except IndexError:
             return []
