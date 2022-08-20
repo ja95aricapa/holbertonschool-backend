@@ -43,12 +43,15 @@ class Server:
         """
         Return page of dataset
         """
+        # check for bad input
         assert type(page) is int and page > 0
         assert type(page_size) is int and page_size > 0
-        page, page_size = index_range(page, page_size)
+        # get dataset
         all_data = self.dataset()
-        filter_data = all_data[page:page_size]
         try:
+            # filter dataset by page and page_size
+            page, page_size = index_range(page, page_size)
+            filter_data = all_data[page:page_size]
             return filter_data
         except IndexError:
             return []
