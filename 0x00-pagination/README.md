@@ -1,11 +1,11 @@
 # 0x04. Pagination
 ===
 
-![](https://github.com/Cristhian-Carbonell/holbertonschool-web_back_end/blob/main/0x04-pagination/image/3646eb02de6527ca5d83.png?raw=true)
+![](https://github.com/ja95aricapa/holbertonschool-web_back_end/blob/main/0x04-pagination/image/3646eb02de6527ca5d83.png?raw=true)
 
-![](https://github.com/Cristhian-Carbonell/holbertonschool-web_back_end/blob/main/0x04-pagination/image/2.png?raw=true)
+![](https://github.com/ja95aricapa/holbertonschool-web_back_end/blob/main/0x04-pagination/image/2.png?raw=true)
 
-![](https://github.com/Cristhian-Carbonell/holbertonschool-web_back_end/blob/main/0x04-pagination/image/3.png?raw=true)
+![](https://github.com/ja95aricapa/holbertonschool-web_back_end/blob/main/0x04-pagination/image/3.png?raw=true)
 ## Resources
 ### Read or watch:
 
